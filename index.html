@@ -40,6 +40,20 @@
         .dropdown-content a:hover {background-color: #ddd;}
         .dropdown:hover .dropdown-content {display: block;}
         .dropdown:hover .dropbtn {background-color: #004494;}
+                .slider {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .slider img {
+            width: 100%;
+            display: block; /* Remove any extra space below the image */
+            transition: transform 0.5s ease;
+        }
+        /* Simple hover effect to indicate interactivity; customize as needed */
+        .slider img:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
@@ -54,6 +68,11 @@
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
   </div>
+</div>
+<div class="slider">
+    <img src="https://yourwebsite.com/images/contact.png" alt="Contact">
+    <img src="https://yourwebsite.com/images/projects.png" alt="Projects">
+    <img src="https://yourwebsite.com/images/about.png" alt="About Me">
 </div>
 
 </body>
